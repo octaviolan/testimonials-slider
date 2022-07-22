@@ -25,6 +25,7 @@ body {
 .img-person {
   border-radius: 8px;
   overflow: hidden;
+  filter: drop-shadow(0px 15px 7px rgba(0, 0, 0, 0.25));
 }
 
 .container-img img {
@@ -123,7 +124,7 @@ body {
   .img-person {
     width: 80%;
     height: 80%;
-    filter: drop-shadow(0px 0px 0px rgba(0, 0, 0, 0.25));
+    filter: drop-shadow(0px 20px 10px rgba(0, 0, 0, 0.25));
   }
 
   .img-person img {
@@ -143,6 +144,31 @@ body {
   }
 
   .info {
-    max-width: 635px;
+    margin-right: -100px;
+    padding: 0;
+    max-width: 476px;
+    height: fit-content;
+    align-self: center;
+  }
+
+  .info img {
+    width: 90px;
+    height: 70px;
+    left: 25%;
+  }
+
+  .info p {
+    margin: 44px 0px 32px 0;
+    font-size: 24px;
+    line-height: 33px;
+    color: #202047;
+    text-align: left;
+  }
+
+  .info-person {
+    flex-direction: row;
+    gap: 10px;
+    font-size: 15px;
+    line-height: 28px;
   }
 }
